@@ -58,7 +58,7 @@ layout: two-cols-header
 
 ## やってみよう！
 
-## 問題3: 左下と右上を光らせよう！
+## 演習3: 左下と右上を光らせよう！
 <img src="/img/問題3.svg" alt="右上を光らせる" style="width:60%;height:auto;">
 
 
@@ -109,7 +109,7 @@ flowchart
 
 ---
 
-## シミュレーションしよう！
+## 演習4: シミュレーションしよう！
 
 <img src="/img/image-6.png" alt="Tinkercad" style="width:60%;height:auto;"> 
 
@@ -120,7 +120,7 @@ flowchart
 
 ---
 
-## ダイナミック点灯しよう！
+## 演習5: ダイナミック点灯しよう！
 58行目の`/*`と72行目の`*/`を削除して`▶シミュレーション開始`しよう。
 
 <img src="/img/image8.png" alt="Tinkercad" style="width:30%;height:auto;"> 
@@ -129,7 +129,7 @@ flowchart
 layout: two-cols-header
 ---
 
-## ダイナミック点灯しよう！
+## 演習5: ダイナミック点灯しよう！
 
 ::left::
 <img src="/img/image8.png" alt="Tinkercad" style="width:80%;height:auto;"> 
@@ -140,7 +140,7 @@ layout: two-cols-header
 
 ---
 
-## わかったこと
+## まとめ：わかったこと
 1. コンピュータを使って、**機械の制御**を安全かつ正確に行うことができる。
 2. コンピュータへの指示を**プログラム**で行う。
 3. 制御情報工学科では「**機械の制御ができる情報技術者**」を育成する！
@@ -277,8 +277,16 @@ layout: two-cols-header
 
 
 ---
+layout: two-cols-header
+---
 
 ## 家でもできます！
-https://www.tinkercad.com/things/4novUPWfF1w-?sharecode=Onf_GE3mlEn0Sq_Zi_aWAtnwpw8Z4ybddtX33gzPmZc
+
+::left::
+[今回の実習資料](https://github.com/cslab-nituc/ise-taiken2025)
+![QRコード](/img/QR2.png)
+
+::right::
+[シミュレーション](https://www.tinkercad.com/things/4novUPWfF1w-?sharecode=Onf_GE3mlEn0Sq_Zi_aWAtnwpw8Z4ybddtX33gzPmZc)
 
 ![QRコード](/img/image-7.png)
