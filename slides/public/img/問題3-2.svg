@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="230" viewBox="0 0 300 230" width="300" xmlns="http://www.w3.org/2000/svg">
+<style>
+    .led-off { fill: white; stroke: black; }
+    .led-on { fill: red; stroke: black; }
+    .btn-black { fill: black; }
+    .btn-red { fill: red; }
+  </style>
+<!-- LEDマトリクス -->
+<g transform="translate(60, 20)">
+<!-- 行0〜7 -->
+<!-- 列0〜7 -->
+<!-- 点灯条件:
+         ・左下 = row 4〜7, col 0〜3
+         ・右上 = row 0〜3, col 4〜7 -->
+<!-- LED spacing: 22px (20px LED + 2px間隔) -->
+<!-- 描画ループの代わりに手入力 -->
+<!-- row 0 -->
+<rect class="led-off" height="20" width="20" x="0" y="0"/>
+<rect class="led-off" height="20" width="20" x="22" y="0"/>
+<rect class="led-off" height="20" width="20" x="44" y="0"/>
+<rect class="led-off" height="20" width="20" x="66" y="0"/>
+<rect class="led-on" height="20" width="20" x="88" y="0"/>
+<rect class="led-on" height="20" width="20" x="110" y="0"/>
+<rect class="led-on" height="20" width="20" x="132" y="0"/>
+<rect class="led-on" height="20" width="20" x="154" y="0"/>
+<!-- row 1 -->
+<rect class="led-off" height="20" width="20" x="0" y="22"/>
+<rect class="led-off" height="20" width="20" x="22" y="22"/>
+<rect class="led-off" height="20" width="20" x="44" y="22"/>
+<rect class="led-off" height="20" width="20" x="66" y="22"/>
+<rect class="led-on" height="20" width="20" x="88" y="22"/>
+<rect class="led-on" height="20" width="20" x="110" y="22"/>
+<rect class="led-on" height="20" width="20" x="132" y="22"/>
+<rect class="led-on" height="20" width="20" x="154" y="22"/>
+<!-- row 2 -->
+<rect class="led-off" height="20" width="20" x="0" y="44"/>
+<rect class="led-off" height="20" width="20" x="22" y="44"/>
+<rect class="led-off" height="20" width="20" x="44" y="44"/>
+<rect class="led-off" height="20" width="20" x="66" y="44"/>
+<rect class="led-on" height="20" width="20" x="88" y="44"/>
+<rect class="led-on" height="20" width="20" x="110" y="44"/>
+<rect class="led-on" height="20" width="20" x="132" y="44"/>
+<rect class="led-on" height="20" width="20" x="154" y="44"/>
+<!-- row 3 -->
+<rect class="led-off" height="20" width="20" x="0" y="66"/>
+<rect class="led-off" height="20" width="20" x="22" y="66"/>
+<rect class="led-off" height="20" width="20" x="44" y="66"/>
+<rect class="led-off" height="20" width="20" x="66" y="66"/>
+<rect class="led-on" height="20" width="20" x="88" y="66"/>
+<rect class="led-on" height="20" width="20" x="110" y="66"/>
+<rect class="led-on" height="20" width="20" x="132" y="66"/>
+<rect class="led-on" height="20" width="20" x="154" y="66"/>
+<!-- row 4 -->
+<rect class="led-on" height="20" width="20" x="0" y="88"/>
+<rect class="led-on" height="20" width="20" x="22" y="88"/>
+<rect class="led-on" height="20" width="20" x="44" y="88"/>
+<rect class="led-on" height="20" width="20" x="66" y="88"/>
+<rect class="led-off" height="20" width="20" x="88" y="88"/>
+<rect class="led-off" height="20" width="20" x="110" y="88"/>
+<rect class="led-off" height="20" width="20" x="132" y="88"/>
+<rect class="led-off" height="20" width="20" x="154" y="88"/>
+<!-- row 5 -->
+<rect class="led-on" height="20" width="20" x="0" y="110"/>
+<rect class="led-on" height="20" width="20" x="22" y="110"/>
+<rect class="led-on" height="20" width="20" x="44" y="110"/>
+<rect class="led-on" height="20" width="20" x="66" y="110"/>
+<rect class="led-off" height="20" width="20" x="88" y="110"/>
+<rect class="led-off" height="20" width="20" x="110" y="110"/>
+<rect class="led-off" height="20" width="20" x="132" y="110"/>
+<rect class="led-off" height="20" width="20" x="154" y="110"/>
+<!-- row 6 -->
+<rect class="led-on" height="20" width="20" x="0" y="132"/>
+<rect class="led-on" height="20" width="20" x="22" y="132"/>
+<rect class="led-on" height="20" width="20" x="44" y="132"/>
+<rect class="led-on" height="20" width="20" x="66" y="132"/>
+<rect class="led-off" height="20" width="20" x="88" y="132"/>
+<rect class="led-off" height="20" width="20" x="110" y="132"/>
+<rect class="led-off" height="20" width="20" x="132" y="132"/>
+<rect class="led-off" height="20" width="20" x="154" y="132"/>
+<!-- row 7 -->
+<rect class="led-on" height="20" width="20" x="0" y="154"/>
+<rect class="led-on" height="20" width="20" x="22" y="154"/>
+<rect class="led-on" height="20" width="20" x="44" y="154"/>
+<rect class="led-on" height="20" width="20" x="66" y="154"/>
+<rect class="led-off" height="20" width="20" x="88" y="154"/>
+<rect class="led-off" height="20" width="20" x="110" y="154"/>
+<rect class="led-off" height="20" width="20" x="132" y="154"/>
+<rect class="led-off" height="20" width="20" x="154" y="154"/>
+</g>
+<!-- 左側のボタン（全部黒） -->
+<g>
+<circle class="btn-black" cx="50" cy="30" r="6" stroke="black"/>
+<circle class="btn-black" cx="50" cy="52" r="6" stroke="black"/>
+<circle class="btn-black" cx="50" cy="74" r="6" stroke="black"/>
+<circle class="btn-black" cx="50" cy="96" r="6" stroke="black"/>
+<circle class="btn-black" cx="50" cy="118" r="6" stroke="black"/>
+<circle class="btn-black" cx="50" cy="140" r="6" stroke="black"/>
+<circle class="btn-black" cx="50" cy="162" r="6" stroke="black"/>
+<circle class="btn-black" cx="50" cy="184" r="6" stroke="black"/>
+</g>
+<!-- 下側のボタン（全部赤） -->
+<g>
+<circle class="btn-red" cx="70" cy="204" r="6" stroke="black"/>
+<circle class="btn-red" cx="92" cy="204" r="6" stroke="black"/>
+<circle class="btn-red" cx="114" cy="204" r="6" stroke="black"/>
+<circle class="btn-red" cx="136" cy="204" r="6" stroke="black"/>
+<circle class="btn-red" cx="158" cy="204" r="6" stroke="black"/>
+<circle class="btn-red" cx="180" cy="204" r="6" stroke="black"/>
+<circle class="btn-red" cx="202" cy="204" r="6" stroke="black"/>
+<circle class="btn-red" cx="224" cy="204" r="6" stroke="black"/>
+</g>
+</svg>
