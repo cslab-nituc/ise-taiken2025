@@ -23,8 +23,8 @@ layout: two-cols-header
 
 ::right::
 
-## 1. <span v-click>黒ボタン(行）と赤ボタン（列）を押す。</span>
-## 2. <span v-click>黒に5V、赤に0Vの電圧がかかるため、交点のLEDが点灯する。</span>
+## 1. <span v-click>赤ボタン（列）と黒ボタン(行）を押す。</span>
+## 2. <span v-click>赤がプラス（5V）、黒がマイナス（0V）に接続されて電圧がかかり、交点のLEDが点灯する。</span>
 
 ---
 layout: two-cols-header
@@ -84,13 +84,14 @@ layout: two-cols
 layout: two-cols
 ---
 
-<img src="/img/ミニ電光掲示板.png" alt="Arduino" style="width:100%;height:auto;"> 
+<img src="/img/ミニ電光掲示板.png" alt="Arduino" style="width:70%;height:auto;"> 
 
 1. スイッチの代わりにコンピュータを回路に接続する。
-2. プログラムを使って、コンピュータから回路先にHIGH（押す）LOW（離す）を設定する。**すごい勢いで**（ここ大事）
-- 「黒の下半分だけHIGH」「赤の左半分だけHIGH」
-- 「黒の上半分だけHIGH」「赤の右半分だけHIGH」
-3. 手で無茶苦茶早く押すのと同じ効果！<br/>（**ダイナミック点灯**）
+2. 「**すごい勢いで**①②を繰り返す」プログラムを作成する。  
+① 「赤の左半分だけ押す」「黒の下半分だけ押す」  
+② 「赤の右半分だけ押す」「黒の上半分だけ押す」  
+3. プログラムをコンピュータで実行する  
+→手で無茶苦茶早く押すのと同じ効果！<br/>（**ダイナミック点灯**）
 
 ::right::
 
@@ -98,8 +99,8 @@ layout: two-cols
 flowchart
   O2["初期設定"]
   O2 --> A("loop() 開始")
-  A --> B["黒の下半分と赤の左半分をHIGHに設定<br/>(左下 点灯)"]
-  B --> C["黒の上半分と赤の右半分をHIGHに設定<br/>（右上点灯）"]
+  A --> B["①赤の左半分と黒の下半分を押す<br/>（左下点灯)"]
+  B --> C["②赤の右半分と黒の上半分を押す<br/>（右上点灯）"]
   C --> D("loop()ここまで")
   D --> A
 
@@ -111,19 +112,24 @@ flowchart
 
 ## 演習4: シミュレーションしよう！
 
-<img src="/img/image-6.png" alt="Tinkercad" style="width:60%;height:auto;"> 
+<img src="/img/image-6.png" alt="Tinkercad" style="width:80%;height:auto;"> 
 
 1. `▶シミュレーション開始`をクリックして開始する。
 2. Matrix LEDの変化を見る。
-3. プログラム内の`loop()`を確認する。ただし、58行目～72行目（`/*`と`*/`の間）は実行されない
+3. プログラム内の`loop()`を確認する。ただし、57行目～71行目（`/*`と`*/`の間）は実行されない
 4. `シミュレーションを停止`をクリックして停止する。
 
 ---
+layout: two-cols
+---
 
 ## 演習5: ダイナミック点灯しよう！
-58行目の`/*`と72行目の`*/`を削除して`▶シミュレーション開始`しよう。
+57行目の`/*`と71行目の`*/`を削除して
+### `▶シミュレーション開始`
+しよう。
 
-<img src="/img/image8.png" alt="Tinkercad" style="width:30%;height:auto;"> 
+::right::
+<img src="/img/image8.png" alt="Tinkercad" style="width:90%;height:auto;"> 
 
 ---
 layout: two-cols-header
@@ -277,16 +283,17 @@ layout: two-cols-header
 
 
 ---
-layout: two-cols-header
----
 
-## 家でもできます！
+## 自宅でもできます！
 
-::left::
-[今回の実習資料](https://github.com/cslab-nituc/ise-taiken2025)
+- [今回の実習資料](https://github.com/cslab-nituc/ise-taiken2025)
 ![QRコード](/img/QR2.png)
 
-::right::
-[シミュレーション](https://www.tinkercad.com/things/4novUPWfF1w-?sharecode=Onf_GE3mlEn0Sq_Zi_aWAtnwpw8Z4ybddtX33gzPmZc)
 
+- [シミュレータ（TinkerPad）](https://www.tinkercad.com/things/4novUPWfF1w-?sharecode=Onf_GE3mlEn0Sq_Zi_aWAtnwpw8Z4ybddtX33gzPmZc)
+- [Arduino Reference Manual](https://docs.arduino.cc/language-reference/)
+
+<!--
 ![QRコード](/img/image-7.png)
+-->
+<div style="height: 200px;"></div>
