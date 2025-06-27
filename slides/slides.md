@@ -15,7 +15,7 @@
 ![QRコード](/img/QR2.png)
 
 
-- [仮想実習環境（TinkerPad）](https://www.tinkercad.com/joinclass/76STCHZQY)
+- [仮想実習環境（Tinkercad）](https://www.tinkercad.com/joinclass/76STCHZQY)
 - [Arduino Reference Manual](https://docs.arduino.cc/language-reference/)
 
 <!--
@@ -310,7 +310,7 @@ layout: two-cols-header
 ![QRコード](/img/QR2.png)
 
 
-- [シミュレータ（TinkerPad）](https://www.tinkercad.com/things/4novUPWfF1w-?sharecode=Onf_GE3mlEn0Sq_Zi_aWAtnwpw8Z4ybddtX33gzPmZc)
+- [シミュレータ（Tinkercad）](https://www.tinkercad.com/things/4novUPWfF1w-?sharecode=Onf_GE3mlEn0Sq_Zi_aWAtnwpw8Z4ybddtX33gzPmZc)
 - [Arduino Reference Manual](https://docs.arduino.cc/language-reference/)
 
 <!--
