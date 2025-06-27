@@ -27,7 +27,10 @@
 
 ## じつは <span v-click>**→コンピュータとプログラムが活躍！**</span><span v-click>（8x8のLEDで体験）</span>
 
-<img src="/img/image-1.png" alt="マツダスタジアムの電光掲示板" style="width:100%;height:auto;">
+<img src="/img/image-1.png" alt="マツダスタジアムの電光掲示板" style="width:80%;height:auto;">
+
+写真は(株)広島東洋カープ提供  
+技術情報はパナソニックシステムネットワークス（株）提供
 
 ---
 layout: two-cols-header
@@ -40,8 +43,8 @@ layout: two-cols-header
 
 ::right::
 
-## 1. <span v-click>赤ボタン（列）と黒ボタン(行）を押す。</span>
-## 2. <span v-click>赤がプラス（5V）、黒がマイナス（0V）に接続されて電圧がかかり、交点のLEDが点灯する。</span>
+## 1. <span v-click>赤ボタンと黒ボタンを押す。</span>
+## 2. <span v-click>赤がプラス（5V）<br/>　黒がマイナス（0V）<br/>　に接続され、<br/>　交点のLEDが点灯する。</span>
 
 ---
 layout: two-cols-header
@@ -85,7 +88,7 @@ layout: two-cols-header
 
 ## 解答3: 
 <img src="/img/dynamic_led.gif" alt="ダイナミック点灯" style="width:60%;height:auto;"> 
-
+<div style="height: 200px;"></div>
 
 
 ---
