@@ -6,6 +6,23 @@
 学生（4年生）
 
 
+
+---
+
+## 資料
+
+- [今回の実習資料](https://github.com/cslab-nituc/ise-taiken2025)
+![QRコード](/img/QR2.png)
+
+
+- [仮想実習環境（TinkerPad）](https://www.tinkercad.com/joinclass/76STCHZQY)
+- [Arduino Reference Manual](https://docs.arduino.cc/language-reference/)
+
+<!--
+![QRコード](/img/image-7.png)
+-->
+<div style="height: 200px;"></div>
+
 ---
 
 ## じつは <span v-click>**→コンピュータとプログラムが活躍！**</span><span v-click>（8x8のLEDで体験）</span>
