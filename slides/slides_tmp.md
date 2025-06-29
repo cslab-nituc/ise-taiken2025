@@ -1,44 +1,3 @@
-## この資料について
-
-この資料は、2025年6月28日に開催された3高専合同学校説明会「宇部高専制御情報工学科体験授業」で用いたスライドを公開したものです。
-興味を持たれた方は、ぜひその他の宇部高専広報イベントにご参加ください。
-
-- [受験生応援サイト](https://www.ube-k.ac.jp/prospective-students/)
-- [第1回オープンキャンパス](https://www.ube-k.ac.jp/for-prospective-stu/opencampus-3/)
-→ **7月1日（火）申し込み締め切りです！**
-
----
-
-## 参考資料（体験実習で用いたツールなど）
-<!--
-- [今回の実習資料](https://github.com/cslab-nituc/ise-taiken2025)
-![QRコード](/img/QR2.png)
--->
-
-今回の体験実習では[Tinkercad](https://www.tinkercad.com/)という仮想環境を使用してArduinoマイコンのシミュレーションを行いました。この環境は一年生のグループワークでラーメンタイマーの設計開発ツールとして試行利用しています。
-
-- **[8x8 LED Matrix](https://www.tinkercad.com/things/giZok6IoYIU-8x8-led-matrix)**
-
-リンク先の[8x8 LED Matrix](https://www.tinkercad.com/things/giZok6IoYIU-8x8-led-matrix)回路に対し、
-loop()関数を体験実習用に変更して使用しました。
-
-- **[仮想実習環境（Tinkercad）](https://www.tinkercad.com/joinclass/76STCHZQY)**
-
-リンク先から「ニックネームで参加」をクリックし、「ニックネームを入力」部分に1～30までの任意の数字を入力いただくことでログインできます。（体験用に共有していますので、変更を加えてオリジナルを保存するなどの際は、新規にアカウントを取得されてください。）
-
-- **[Arduino Reference Manual](https://docs.arduino.cc/language-reference/)**
-
-今回の体験実習には仮想環境を用いましたが、一年生の実習では実際のArduinoマイコンを用いたプログラミング実習を行います。
-今回使用したものと同じ関数（命令文）を用います。リンク先は公式マニュアルです。
-
-
-<!--
-![QRコード](/img/image-7.png)
--->
-<div style="height: 200px;"></div>
-
----
-
 # ミニ電光掲示板プログラミング体験
 ## 2025年6月28日
 
@@ -48,7 +7,21 @@ loop()関数を体験実習用に変更して使用しました。
 
 
 
+---
 
+## 資料
+
+- [今回の実習資料](https://github.com/cslab-nituc/ise-taiken2025)
+![QRコード](/img/QR2.png)
+
+
+- [仮想実習環境（Tinkercad）](https://www.tinkercad.com/joinclass/76STCHZQY)
+- [Arduino Reference Manual](https://docs.arduino.cc/language-reference/)
+
+<!--
+![QRコード](/img/image-7.png)
+-->
+<div style="height: 200px;"></div>
 
 ---
 
@@ -328,3 +301,19 @@ layout: two-cols-header
 
 <img src="/img/test.png" alt="V" style="width:80%;height:auto;"> 
 
+
+---
+
+## 自宅でもできます！
+
+- [今回の実習資料](https://github.com/cslab-nituc/ise-taiken2025)
+![QRコード](/img/QR2.png)
+
+
+- [シミュレータ（Tinkercad）](https://www.tinkercad.com/things/4novUPWfF1w-?sharecode=Onf_GE3mlEn0Sq_Zi_aWAtnwpw8Z4ybddtX33gzPmZc)
+- [Arduino Reference Manual](https://docs.arduino.cc/language-reference/)
+
+<!--
+![QRコード](/img/image-7.png)
+-->
+<div style="height: 200px;"></div>
